@@ -1,7 +1,8 @@
 # repo-sanity
 
 My own sanity-checker.  
-A Python CLI tool that checks a repo for dumb security mistakes.
+A Python CLI tool that checks a repo for dumb security mistakes.  
+With color!
 
 ## Usage
 
