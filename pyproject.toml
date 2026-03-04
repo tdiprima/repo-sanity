@@ -1,0 +1,7 @@
+[project]
+name = "repo-sanity"
+version = "0.1.0"
+description = "Check repos for dumb mistakes"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
