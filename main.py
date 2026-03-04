@@ -3,7 +3,6 @@
 repo-sanity: A simple security scanner.
 
 Usage:
-    python main.py .
     python main.py /path/to/repo
 """
 
