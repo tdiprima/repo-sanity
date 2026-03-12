@@ -8,6 +8,8 @@ CI pipelines often run without basic security checks, allowing secrets to leak i
 
 A lightweight scanner that detects common secret leaks in your codebase before CI or GitHub scanners do.
 
+I cleaned up my whole codebase with this.
+
 Detects:
 
 - API keys (AWS, OpenAI, Stripe, GitHub tokens, generic key assignments)
