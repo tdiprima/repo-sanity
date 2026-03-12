@@ -1,4 +1,4 @@
-# 🔐 Secret Leak Finder 🔎
+# 🔐 Repo Secret Finder 🔎
 
 ## Problem
 
