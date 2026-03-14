@@ -1,10 +1,8 @@
 # 🔐 Repo Secret Finder 🔎
 
-CI pipelines often run without basic security checks, allowing secrets to leak into repositories undetected.
+I wanted a lightweight way to scan my repositories for potential secret leaks without relying on tools like GitLeaks.
 
-**Solution:** A lightweight scanner that detects common secret leaks in your codebase before CI or GitHub scanners do.
-
-I cleaned up my whole codebase with this.
+This project is a small scanner that detects common secrets in your codebase so you can catch leaks locally before they reach CI or GitHub security scans.
 
 Detects:
 
