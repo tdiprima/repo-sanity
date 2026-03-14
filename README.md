@@ -15,6 +15,7 @@ Detects:
 - Missing `.gitignore` files
 - Debug print statements, `breakpoint()` calls, and `pdb` usage
 - Subprocess calls with `shell=True` (shell injection risk)
+- Database connection strings with embedded credentials (PostgreSQL, MySQL, MongoDB, Redis, MSSQL, and ADO.NET-style strings)
 
 ## Example
 
