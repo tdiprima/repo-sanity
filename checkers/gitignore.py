@@ -3,6 +3,7 @@ Check: Does the repo have a .gitignore?
 """
 
 import os
+
 from results import Finding
 
 
@@ -12,5 +13,4 @@ def check_gitignore(repo_path):
 
     if os.path.isfile(gitignore_path):
         return [Finding("OK", ".gitignore exists")]
-    else:
-        return [Finding("WARN", "missing .gitignore")]
+    return [Finding("WARN", "missing .gitignore")]

@@ -5,6 +5,7 @@ Check: Are secret-looking files world-readable?
 
 import os
 import stat
+
 from results import Finding
 from scanner import get_all_files
 

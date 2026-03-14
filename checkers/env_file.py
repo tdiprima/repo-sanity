@@ -3,6 +3,7 @@ Check: Is a .env file sitting in the repo?
 """
 
 import os
+
 from results import Finding
 
 

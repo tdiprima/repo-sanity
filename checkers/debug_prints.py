@@ -4,6 +4,7 @@ Only flags prints that look like debugging, not all prints.
 """
 
 import re
+
 from results import Finding
 from scanner import get_source_files, read_file_lines
 
